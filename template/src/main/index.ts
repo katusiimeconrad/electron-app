@@ -2,7 +2,7 @@ import { app } from 'electron'
 
 import { makeAppWithSingleInstanceLock } from 'lib/electron-app/factories/app/instance'
 import { makeAppSetup } from 'lib/electron-app/factories/app/setup'
-import { loadReactDevtools } from 'lib/electron-app/utils/utils'
+import { loadReactDevtools } from 'lib/electron-app/utils'
 import { ENVIRONMENT } from 'shared/constants'
 import { MainWindow } from './windows/main'
 import { waitFor } from 'shared/utils'
